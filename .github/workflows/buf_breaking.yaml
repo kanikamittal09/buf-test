@@ -28,4 +28,4 @@ jobs:
       - uses: bufbuild/buf-breaking-action@v1
         with:
           input: 'protofiles'
-          against: 'https://github.com/acme/weather.git#branch=main,ref=HEAD~1,subdir=protofiles'
+          against: 'https://github.com/kanikamittal09/buf-test.git#branch=main,ref=HEAD~1,subdir=protofiles'
